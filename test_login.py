@@ -1,7 +1,7 @@
 import streamlit as st
 from streamlit_login_auth_ui.widgets import __login__
 
-__login__obj = __login__(auth_token = "Bearer pk_prod_NFP3H2Z1NHMQNTPZG9Y79GMASD01", 
+__login__obj = __login__(auth_token = "pk_prod_NFP3H2Z1NHMQNTPZG9Y79GMASD01", 
                     company_name = "ycomm",
                     width = 200, height = 250, 
                     logout_button_name = 'Logout', hide_menu_bool = False, 
